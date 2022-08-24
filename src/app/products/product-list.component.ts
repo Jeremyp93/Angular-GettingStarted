@@ -8,7 +8,7 @@ import { ProductService } from "./product.service";
     styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit, OnDestroy {
-  constructor(private productService: ProductService ) {}
+  constructor(private productService: ProductService) {}
 
   pageTitle: string = 'Product List';
   imageWidth: number = 50;
